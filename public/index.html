@@ -5,7 +5,14 @@
     <meta charset="UTF-8" />
     <!-- For responsive -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- google font -->
 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Gowun+Dodum&family=Happy+Monkey&display=swap"
+      rel="stylesheet"
+    />
     <!-- Tailwint output css -->
     <link href="/dist/output.css" rel="stylesheet" />
     <!-- FONT AWESOME -->
@@ -19,9 +26,147 @@
     />
   </head>
   <body>
-    <a href="https://tailwindcss.com/docs/installation" target="_blank">Tailwind Website</a>
+    <a href="https://tailwindcss.com/docs/installation" target="_blank"
+      >Tailwind Website</a
+    >
+    <br />
+    <a href="https://github.com/merveartiran/Tailwind_templates"
+      >Github Website</a
+    >
+    <br />
+    <hr />
     <!-- start codes -->
-    <h1 class="text-3xl font-bold underline">Hello world!</h1>
+<!-- margin -->
+<p>Margin</p>
+<hr>
+<div class="  bg-red-950 text-orange-300 m-4 hover:m-8 rounded-full shadow-lg border-4">margin dış boşluk</div>
+
+<hr>
+<div class="mx-auto my-auto bg-red-950 text-orange-300">margin dış boşluk</div>
+
+<hr>
+<div class="mt-6 mr-10 mb-6 ml-10 bg-red-950 text-orange-300">margin dış boşluk</div>
+
+<hr>
+<div class="m-auto bg-red-950 text-orange-300">margin dış boşluk</div>
+
+<hr>
+<div class="ml-8 bg-red-950 text-orange-300">margin dış boşluk</div>
+
+<hr>
+<div class="mb-8 bg-red-950 text-orange-300">margin dış boşluk</div>
+
+<hr>
+<div class="mr-8 bg-red-950 text-orange-300">margin dış boşluk</div>
+
+<div class="m-6 bg-red-950 text-orange-300">margin dış boşluk</div>
+<hr>
+<div class="mt-8 bg-red-950 text-orange-300">margin dış boşluk</div>
+<hr>
+<!-- padding -->
+<hr>
+    <br><br><br>
+    <!-- ROUNDED -->
+    <p class="rounded-tl-md rounded-tr-2xl rounded-br-lg bg-blue-500">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis culpa nulla nisi ipsam, fuga obcaecati est quos aspernatur quia praesentium quo itaque perspiciatis suscipit excepturi sint dolore eligendi officia minus.</p>
+
+     <br>
+<p class="rounded-tl-md rounded-br-lg bg-blue-500">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis culpa nulla nisi ipsam, fuga obcaecati est quos aspernatur quia praesentium quo itaque perspiciatis suscipit excepturi sint dolore eligendi officia minus.</p>
+
+
+     <hr>
+    <p
+      class="rounded-md hover:rounded-full shadow-lg bg-slate-600 text-purple-200"
+    >
+      Rounded Text
+    </p>
+    <br />
+    <p class="rounded-md bg-slate-600 text-pretty text-purple-200">Rounded</p>
+    <br />
+    <p class="rounded-full bg-slate-600 text-yellow-200">Rounded</p>
+
+    <p>Köşe yuvarlama</p>
+    <br />
+
+    <!-- BORDER -->
+    <div class="border shadow-md border-gray-900 hover:border-lime-900">
+      border
+    </div>
+    <br />
+    <div class="border-b-4 border-gray-900 hover:border-lime-900">border</div>
+    <br />
+    <div class="border-l-4 border-gray-900 hover:border-lime-900">border</div>
+    <br />
+    <div class="border-2 border-gray-900 hover:border-lime-900">border</div>
+
+    <br />
+    <div class="border-2 border-spacing-5 border-blue-400">border</div>
+
+    <br />
+    <div class="border border-lime-700">Sınır</div>
+
+    <hr />
+    <br /><br /><br />
+    <!-- TEXT -->
+
+    <p class="text-xs">Small Metin</p>
+    <p class="text-lg">Large Metin</p>
+    <p class="font-semibold">yarı kalın Metin</p>
+
+    <p class="font-bold">Bold Metin</p>
+    <p class="text-underline">Underline Metin</p>
+    <p class="italic">Italic Metin</p>
+    <p class="uppercase">Büyük harf</p>
+    <p class="lowercase">Küçük harf</p>
+    <p class="capitalize">
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique
+      asperiores corrupti voluptatem dolorum ab! Nisi at deserunt aspernatur
+      molestias laudantium quis soluta ducimus magni a provident, fugit
+      excepturi animi quas.
+    </p>
+    <p class="text-blue-500 hover:text-red-300">Metin belgeler</p>
+    <p class="bg-yellow-300 text-purple-950 shadow-md">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis
+      quisquam eligendi nostrum at ipsa natus molestias unde obcaecati,
+      laudantium totam, doloribus veniam corporis, perspiciatis eos aliquid quis
+      sint similique
+    </p>
+    <br /><br />
+    <hr />
+    <p class="truncate bg-pink-200">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis
+      quisquam eligendi nostrum at ipsa natus molestias unde obcaecati,
+      laudantium totam, doloribus veniam corporis, perspiciatis eos aliquid quis
+      sint similique Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+      Voluptates quia, eligendi quaerat molestias accusamus omnis magnam
+      suscipit sint corporis molestiae enim minus voluptate cum, odit ullam
+      possimus, quam vero quidem? Consequuntur nulla dolore officia, vero at aut
+      sapiente ut ipsa laudantium odit voluptatibus voluptate repellat quisquam
+      quo? A, omnis. Dolore, officiis? Qui iusto repellendus quo eaque deleniti
+      veritatis, voluptatibus nobis? Tempore adipisci suscipit voluptates error?
+      Cum minima nobis quaerat voluptate repudiandae fugit error nisi quisquam.
+      Iusto error quos saepe nostrum obcaecati qui, blanditiis cupiditate
+      tempora vel quisquam, aperiam reiciendis harum? Consequuntur ab
+      repudiandae dolorem eligendi corporis porro minima fuga? Asperiores
+      repellat dolores cum laudantium illo deserunt pariatur eos culpa deleniti
+      natus? Repellendus incidunt quisquam cupiditate corporis qui autem! Ut,
+      culpa?
+    </p>
+
+    <hr />
+    <a href="https://github.com/merveartiran/Tailwind_templates"
+      >Github Website</a
+    >
+    <br />
+
+    <h1 class="text-3xl underline text-gray-700">Hello world!</h1>
+    <hr />
+    <p class="text-primary">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet
+    </p>
+    <p class="text-tertiary container">Learn more about container-color</p>
+    <hr />
+    <p class="text-fortis container font-miuul">Leran more about Font</p>
+    <hr />
     <i class="fa-brands fa-insgittagram"></i>
     <!-- end codes -->
   </body>
